@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Online Shopping site in India: Shop online for Mobiles, Watches, Books,
+      Shoes and more - shop.in
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="E-commerce.css" />
+    <link rel="stylesheet" href="media query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="website icon" type="png" href="shopping-cart.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search" />
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="content">
+          <div class="img-bx">
+            <a href="#"><img class="mx-3" src="cart icon.png" alt="" /></a>
+          </div>
+          <div class="logo"><a href="#">Shop.in</a></div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <!-- <li>
+              <a href="#" class="desktop-link">Features</a>
+              <input type="checkbox" id="show-features" />
+              <label for="show-features">Features</label>
+              <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+              </ul>
+            </li> -->
+            <li>
+              <a
+                href="#"
+                class="desktop-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Products</a
+              >
+
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="desktop-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Fashion</a
+                  >
+                  <ul>
+                    <li><a href="#">Men's Top wear</a></li>
+                    <li><a href="#">Men's Bottom wear</a></li>
+                    <li><a href="#">Women Ethnic</a></li>
+                    <li><a href="#">Women Western</a></li>
+                    <li><a href="#">Men Footwear</a></li>
+                    <li><a href="#">Women Footwear</a></li>
+                    <li><a href="#">Watches and Accessories</a></li>
+                    <li><a href="#">Kids</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="desktop-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Mobiles</a
+                  >
+                  <ul>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Realme</a></li>
+                    <li><a href="#">Redmi</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Poco</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="desktop-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Electronics</a
+                  >
+                  <ul>
+                    <li><a href="#">Cameras and Accessories</a></li>
+                    <li><a href="#">Computer Peripherals</a></li>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Laptop Accessories</a></li>
+                    <li><a href="#">Mobile Accessories</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="desktop-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Home Appliances</a
+                  >
+                  <ul>
+                    <li><a href="#">Home Furnishes</a></li>
+                    <li><a href="#">Furniture Studio</a></li>
+                    <li><a href="#">Kitchen Dining</a></li>
+                    <li><a href="#">Bedroom Furniture</a></li>
+                    <li><a href="#">Lightings and Electricals</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Top Offers</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="desktop-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >More Items</a
+                  >
+
+                  <ul>
+                    <li><a href="#">Gift Items</a></li>
+                    <li><a href="#">Kitchen Tools</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Beauty</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <a
+            class="btn btn-primary mx-3 my-3"
+            href="form-3.html"
+            target="_blank"
+            >Login</a
+          >
+        </div>
+        <label for="show-search" class="search-icon">
+          <i class="fas fa-search"></i>
+        </label>
+        <form action="#" class="search-box">
+          <input
+            type="text"
+            placeholder="Type Something to Search..."
+            required
+          />
+          <button type="submit" class="go-icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </form>
+      </nav>
+    </div>
+
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+      </div> -->
+      <div class="carousel-inner" id="product">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="realme.jpg" class="d-block certi-width certi-img" alt="" />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img
+            src="pest control.jpg"
+            class="d-block certi-width certi-img"
+            alt=""
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img
+            src="headphones.jpg"
+            class="d-block certi-width certi-img"
+            alt=""
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="toys.jpg" class="d-block certi-width certi-img" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="accessories.jpg"
+            class="d-block certi-width certi-img"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div class="container overflow-hidden text-center" id="general-card">
+      <div class="row gx-5" style="height: 100%;">
+        <div class="col">
+         <div class="border bg-light" style="height: 100%;">
+          <h3 class="pt-3">Top picks for your home</h3>
+        </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light" style="height: 100%;">
+            <h3 class="pt-3">Up to 60% off | Styles for Women</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light" style="height: 100%;">
+            <h3 class="pt-3">Upgrade your home | Brands & more</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light" style="height: 100%;">
+            <h3 class="pt-3">Sign in for your best experience</h3>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="general-card">
+      <div class="general-card-details">
+        <h4 class="pt-3 text-center">Top picks for your home</h4>
+        <div class="container overflow-hidden my-5">
+          <div class="row gy-5">
+            <div class="col-6">
+              <a href="" class="card-link">
+                <img src="p4.jpg" alt="" style="width: 100%" />
+                <h6 style="font-weight: 300">Air Conditioners</h6>
+              </a>
+              <!-- <div class="p-3 border bg-light">Custom column padding</div> -->
+            </div>
+            <div class="col-6">
+              <a href="" class="card-link">
+                <img src="p1.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Washing Machines</h6>
+              </a>
+            </div>
+            <div class="col-6 pt-4">
+              <a href="" class="card-link">
+                <img src="p2.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Microwaves</h6>
+              </a>
+            </div>
+            <div class="col-6 pt-4">
+              <a href="" class="card-link">
+                <img src="p3.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Refrigerators</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general-card-details">
+        <h4 class="pt-3 text-center">Up to 60% off | Styles for Women</h4>
+        <div class="container overflow-hidden my-3">
+          <div class="row gy-5">
+            <div class="col-6">
+              <a href="" class="card-link">
+                <img src="p9.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Women's Clothing</h6>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="" class="card-link">
+                <img src="p10.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Winter collection</h6>
+              </a>
+            </div>
+            <div class="col-6 pt-4">
+              <a href="" class="card-link">
+                <img src="p11.jpg" style="width: 100%; height: 54%" alt="" />
+                <h6 style="font-weight: 300">Daily wear</h6>
+              </a>
+            </div>
+            <div class="col-6 pt-4">
+              <a href="" class="card-link">
+                <img
+                  src="p12.jpg"
+                  style="width: 100%; overflow: hidden"
+                  alt=""
+                />
+                <h6 style="font-weight: 300">Top wear</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general-card-details">
+        <h4 class="pt-3 text-center">Upgrade your home | Brands & more</h4>
+        <div class="container overflow-hidden my-3">
+          <div class="row gy-5">
+            <div class="col-6">
+              <a href="" class="card-link"
+                ><img src="p5.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Upto 60% off | Furniture</h6></a
+              >
+            </div>
+            <div class="col-6">
+              <a href="" class="card-link"
+                ><img src="p6.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">
+                  Upto 60% off | Kitchen Products
+                </h6></a
+              >
+            </div>
+            <div class="col-6 pt-2">
+              <a href="" class="card-link"
+                ><img src="p7.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">Upto 45% off | Appliances</h6></a
+              >
+            </div>
+            <div class="col-6 pt-2">
+              <a href="" class="card-link"
+                ><img src="p8.jpg" style="width: 100%" alt="" />
+                <h6 style="font-weight: 300">
+                  Upto 45% off | Smart LED Tv's
+                </h6></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="general-card-details"
+        style="background: transparent; border: 0px"
+      >
+        <h4 class="pt-3 text-center">Sign in for your best experience</h4>
+        <a href="form-3.html" class="btn btn-warning d-grid mx-3"
+          >Sign in securely</a
+        >
+        <div class="container overflow-hidden text-center mt-5">
+          <div class="row gy-5">
+            <img src="laptops.jpg" style="width: 100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="winter-products">
+      <h1 class="text-center product-heading" style="font-weight: bold">
+        Featured Products
+      </h1>
+      <a href="#" class="sale-1"><img src="sale-1.webp" alt="" /></a>
+      <a href="#" class="sale-2"><img src="sale-2.webp" alt="" /></a>
+      <h5 class="text-center product-heading" style="color: darkgrey">
+        Brand New Winter Collection for both Men and Women
+      </h5>
+      <div
+        class="container d-flex justify-content-center text-center"
+        style="margin-top: 21rem"
+        id="clothes"
+      >
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p19.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Mens Premium Jackets</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹199</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p16.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Mens Cotton Leather Jacket</h5>
+            <p class="card-text mt-2">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p class="card-text">Starting From ₹599</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p15.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Stylish Hoddies | Men's</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p20.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Fashionable Jackets</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container d-flex justify-content-center text-center"
+        style="margin-top: 8rem"
+        id="clothes"
+      >
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p17.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Popular Winter Jackets</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹199</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p18.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Womens Cotton Long Jacket</h5>
+            <p class="card-text mt-2">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p class="card-text">Starting From ₹599</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p21.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Hoddies | Women's</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="p22.jpg"
+            class="card-img-top front-card-img img-fluid"
+            alt="..."
+          />
+          <div class="card-body hide-card" style="color: white">
+            <h5 class="card-title">Denim Jackets from Top brands | Women's</h5>
+            <p class="card-text">
+              Rating: <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">See more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="banner">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>70% Off</span> - On All Accessories</h2>
+      <a href="" class="btn btn-warning" style="margin-top: 1rem"
+        >Explore more</a
+      >
+      <!-- <a href="#" ><img style="width: 100%;" src="img/banner/b2.jpg" alt=""></a> -->
+    </div>
+
+    <section id="new-products">
+      <h1 class="text-center product-heading" style="font-weight: bold">
+        New Arrivals
+      </h1>
+      <a href="#" class="sale-1"><img src="sale-1.webp" alt="" /></a>
+      <a href="#" class="sale-2"><img src="sale-2.webp" alt="" /></a>
+      <h5 class="text-center product-heading" style="color: darkgrey">
+        All New Branded Collection for both Men and Women
+      </h5>
+      <div
+        class="container d-flex justify-content-center"
+        style="margin-top: 8rem"
+        id="clothes"
+      >
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n1.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Men fit solid Shirts...</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹399</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n2.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mens Cotton Shirts...</h5>
+            <p class="card-text mt-2">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹599</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n3.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Men's Slim Shirts...</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p class="card-text">Starting From ₹399</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n4.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Party Wear Shirts...</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container d-flex justify-content-center"
+        style="margin-top: 8rem"
+        id="clothes"
+      >
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="f8.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tops For Girls...</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹199</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="f7.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Palazzos | New Collection...</h5>
+            <p class="card-text mt-2">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p class="card-text">Starting From ₹299</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n7.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Formal Shirts | New...</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹599</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+        <div class="card front-card mx-3" style="width: 18rem">
+          <img
+            src="n5.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Denim Shirts</h5>
+            <p class="card-text">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="card-text">Starting From ₹799</p>
+            <a href="#" class="btn btn-warning">Explore more</a>
+            <p class="card-text pt-3">Size: S,M,L,XL,XXL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="image-gallery">
+      <h1 class="card-title pt-4">Top Fashion Brands</h1>
+      <a href="" class="sale-3"><img src="sale-3.webp" alt="" /></a>
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="b4.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h3 class="card-title">Top Winter Collection</h3>
+                <h2 class="card-text pt-3">Get up to 10% off on winter wear</h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="b17.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h2 class="card-title">Crazy Deals</h2>
+                <h2 class="card-text pt-3">
+                  Get up to 80% off on Popular Brands
+                </h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="b16.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h3 class="card-title">Top Fashion Bags</h3>
+                <h2 class="card-text pt-3">Get up to 30% off on All Brands</h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="b10.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h2 class="card-title">Crazy Deals</h2>
+                <h2 class="card-text pt-3">Buy 1 Get 1 Free on top Brands</h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="b18.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h3 class="card-title">T-shirts | Men's and Women's</h3>
+                <h2 class="card-text pt-3">From Top Brands | Get Big Offers</h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="b7.jpg"
+              class="d-block certi-img gallery-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="img-info card-body">
+                <h3 class="card-title">Seasonal Sale</h3>
+                <h2 class="card-text p-3">
+                  Get Best Offers on Earings and more
+                </h2>
+                <a href="" class="btn btn-warning btn-sm mt-3 p-1"
+                  >Get More Deals</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+      <a href="" class="sale-4"><img src="sale-8.webp" alt="" /></a>
+    </section>
+
+    <a href="" class="sale-5"><img src="sale-5.jpg" alt="" /></a>
+    <section class="winter">
+      <div id="general-card" class="p-5 winter-card">
+        <div class="winter-card-details">
+          <h3 class="pt-4 text-center">
+            Value Packs under ₹599 <br />| Amazon Brands & more
+          </h3>
+          <div class="container overflow-hidden my-5">
+            <div class="row">
+              <a class="text-center" href="#">
+                <img src="p23.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <a href="" class="winter-link">End of Season Sale</a>
+        </div>
+        <div class="winter-card-details">
+          <h3 class="pt-3 text-center">Celebrate Christmas in style</h3>
+          <div class="container overflow-hidden my-5">
+            <div class="row gy-5">
+              <div class="col-6">
+                <a href="" class="card-link">
+                  <img src="p25.jpg" style="width: 100%" alt="" />
+                  <h6 style="font-weight: 300">
+                    Men's Clothing | Up to 60% off
+                  </h6>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="" class="card-link">
+                  <img src="p26.jpg" style="width: 100%" alt="" />
+                  <h6 style="font-weight: 300">
+                    Women's Clothing | Up to 60% off
+                  </h6>
+                </a>
+              </div>
+              <div class="col-6 pt-4">
+                <a href="" class="card-link">
+                  <img src="p27.jpg" style="width: 100%; height: 54%" alt="" />
+                  <h6 style="font-weight: 300">
+                    Kid's Clothing | Up to 60% off
+                  </h6>
+                </a>
+              </div>
+              <div class="col-6 pt-4">
+                <a href="" class="card-link">
+                  <img
+                    src="p28.jpg"
+                    style="width: 100%; overflow: hidden"
+                    alt=""
+                  />
+                  <h6 style="font-weight: 300">Footwear | Up to 60% off</h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="winter-card-details">
+          <h3 class="pt-3 text-center">
+            Upgrade your home <br />| Brands & more
+          </h3>
+          <div class="container overflow-hidden my-5">
+            <div class="row gy-5">
+              <a class="text-center" href="#"><img src="p24.jpg" alt="" /></a>
+            </div>
+          </div>
+          <a href="" class="winter-link">See more</a>
+        </div>
+      </div>
+    </section>
+
+    <a href="" class="sale-7"><img src="sale-7.jpg" alt="" /></a>
+    <a href="" class="sale-6"><img src="sale-6.webp" alt="" /></a>
+
+    <div class="container overflow-hidden end-container" style="margin-top: 10rem;">
+      <div class="row gx-5 gutter" style="cursor: pointer;">
+        <div class="col col-margin">
+          <img src="b4.jpg" class="card-img-top img-fluid" style="width: 100%; opacity: 0.7;
+          height: 90%;" alt="..." />
+
+          <div class="card template-body" style="width: 25rem; background-color: transparent;">
+            <h2 class="card-title">Winter Collection</h2>
+              <h2 class="card-text pt-3">
+                Jackets | Jurkins | blazers | From Top Brands
+              </h2>
+          </div>
+        </div>
+        <div class="col col-margin">
+          <img src="b7.jpg" class="card-img-top img-fluid" style="    width: 100%; opacity: 0.7;
+          height: 90%;" alt="..." />
+
+          <div class="card  template-body" style="width: 25rem; background-color: transparent">
+            <h2 class="card-title">Seasonal Sale</h2>
+              <h2 class="card-text pt-3">
+                New Designs - 30% off | on All Brands
+              </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container overflow-hidden mg-top" style="margin-top: 3rem;">
+      <div class="row gx-5" style="cursor: pointer;">
+        <div class="col col-margin">
+          <img src="b10.jpg" class="card-img-top img-fluid" style="width: 100%; opacity: 0.7;
+          height: 90%;" alt="..." />
+
+          <div class="card template-body" style="width: 25rem; background-color: transparent">
+            <h2 class="card-title">Top Brands</h2>
+              <h2 class="card-text pt-3">
+               New T-Shirts | For Men and Women
+              </h2>
+          </div>
+        </div>
+
+        <div class="col col-margin">
+          <img src="b16.jpg" class="card-img-top img-fluid" style="width: 100%; opacity: 0.7;
+          height: 90%;" alt="..." />
+
+          <div class="card template-body" style="width: 25rem; background-color: transparent">
+            <h2 class="card-title">Bags and designers</h2>
+              <h2 class="card-text pt-3">
+                Get Upto 60% off on all Brands
+              </h2>
+          </div>
+        </div>
+
+        <div class="col col-app col-margin">
+          <img src="b17.jpg" class="card-img-top img-fluid" style="width: 100%; opacity: 0.7;
+          height: 90%;" alt="..." />
+
+          <div class="card template-body" style="width: 25rem; background-color: var(--secondary-color)">
+            <h2 class="card-title">Handbags | Purses</h2>
+              <h2 class="card-text pt-3">
+                From Top Brands | Get 20% Off
+              </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="testim" class="testim">
+      <!--     <div class="testim-cover"> -->
+      <div class="wrap">
+        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+        <ul id="testim-dots" class="dots">
+          <li class="dot active"></li>
+          <!--                 -->
+          <li class="dot"></li>
+          <!--                 -->
+          <!-- <li class="dot"></li>
+                         
+          <li class="dot"></li>
+                         
+          <li class="dot"></li> -->
+        </ul>
+        <div id="testim-content" class="cont">
+          <div class="active">
+            <div class="img">
+              <img
+                src="atharva.jpeg"
+                alt=""
+              />
+            </div>
+            <h2>Atharva Barve</h2>
+            <p>
+              We create Branding , Advertising , Design and Art . We do it for
+              Clients , for ourselves and for the love . I am Front-End
+              developer building Websites and WebApps for clients and Users to interact with the Products . I am working with the Web
+              technologies like UI/UX , Javascript , React JS , Bootstrap , HTML+CSS , . I am also working on MERN Technologies and alos building Projects .
+              Visit <a href=""><b>Atharva Barve</b></a> for more information . 
+            </p>
+          </div>
+          <div>
+            <div class="img">
+              <img
+                src="sujal.jpeg"
+                alt=""
+              />
+            </div>
+            <h2>Sujal Chandrakar</h2>
+            <p>
+              I am a Web Developer mainly Backend Developer , currently building projects on NodeJS
+              and MongoDb . I am also familiar with front End Technologies and technologies - JavaScript , Tailwind framework , NODE-JS 
+              Express-JS , HTML + CSS and  have a coding knowledge . I am student and completing my Bachelor's Degree
+              in Computer Science from MITS Gwalior . I have also been working on different Projects . Visit - <a href=""><b>SujalChandrakar</b></a> for more information .
+            </p>
+          </div>
+          <!-- <div>
+            <div class="img">
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,water"
+                alt=""
+              />
+            </div>
+            <h2>Lorem Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div>
+          <div>
+            <div class="img">
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,water"
+                alt=""
+              />
+            </div>
+            <h2>Lorem De Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div>
+          <div>
+            <div class="img">
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,water"
+                alt=""
+              />
+            </div>
+            <h2>Ms. Lorem R. Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div> -->
+        </div>
+      </div>
+      <!--     </div> -->
+    </section>
+
+    <div
+      class="footer"
+      style="width: 100%; position: relative; top: 10rem; margin-bottom: 2rem"
+    >
+      <footer
+        class="text-center text-lg-start text-white"
+        style="background-color: #1c2331"
+      >
+        <section
+          class="d-flex justify-content-between p-4"
+          style="background-color: #6351ce"
+        >
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Shop.in</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-white">HOME</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">SHOP</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">BLOG</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">CONACT US</a>
+                </p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="form-3.html" class="text-white">Connect with us</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><i class="fas fa-home mr-3"></i>Indramani Nagar , Gwalior (M.P.) , India</p>
+                <p><i class="fas fa-envelope mr-3"></i>atharvabarve2003@gmail.com</p>
+                <p><i class="fas fa-envelope mr-3"></i>sujalforselfuse@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i>+91 76930-05811</p>
+                <p><i class="fas fa-print mr-3"></i>+91 90097-32863</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href=""
+            >MDBootstrap.com</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="E-commerce.js"></script>
+  <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
