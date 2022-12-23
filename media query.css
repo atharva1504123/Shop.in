@@ -154,7 +154,7 @@
   }
 }
 
-@media (max-width:380px) {
+@media screen and (max-width:380px) {
   #winter-products{
     bottom: -88rem !important;
   }
