@@ -399,7 +399,8 @@ nav .content .links {
   text-align: center;
   margin-top: -11rem;
   height: 45vh;
-  background-image: url("img/banner/b2.jpg");
+  width: 100%;
+  background-image: url("b2.jpg");
 }
 
 #banner h2 {

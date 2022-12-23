@@ -154,9 +154,9 @@
   }
 }
 
-@media screen and (max-width:380px) {
+@media screen and  (max-width:380px) {
   #winter-products{
-    bottom: -88rem !important;
+    top: 88rem !important;
   }
   #banner{
     margin-top: 218rem !important;
@@ -166,7 +166,7 @@
 
 @media (min-width:381px) and (max-width: 430px) {
   #winter-products{
-    bottom: -30rem !important;
+    top: 30rem !important;
   }
   #banner{
     margin-top: 158rem !important;
